@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<script defer src="fontawesome-all.js"></script>
+
+<body>
+
+  <!-- ############## navbar fixed for site user NOT LOGGED in!!! -->
+  <!-- navbar -->
+  <div class="w3-display-container">
+    <div class="w3-bar w3-xlarge w3-white w3-padding w3-fix-menu">
+      <!-- dropdown menu -->
+      <div class="w3-dropdown-hover w3-fix-menu">
+        <button class="w3-button w3-white w3-text-blue w3-hover-blue w3-button-white">
+          <i class="fas fa-align-justify"></i>
+        </button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-blue w3-xlarge w3-fix-menu">
+          <a href="/blogi.html" class="w3-bar-item w3-button w3-hover-sand">
+            <i class="far fa-newspaper w3-margin-right"></i>Blogi</a>
+          <a href="/mitaihmetta.html" class="w3-bar-item w3-button w3-hover-sand">
+            <i class="fas fa-question-circle w3-margin-right"></i>Mikä on FisuKortti</a>
+          <a href="/kontakti.html" class="w3-bar-item w3-button w3-hover-sand">
+            <i class="fas fa-envelope-open w3-margin-right"></i>Yhteystiedot</a>
+          <a href="/tos.html" class="w3-bar-item w3-button w3-hover-sand">
+            <i class="fas fa-unlock-alt w3-margin-right"></i>Käyttöehdot</a>
+          <a href="#" class="w3-bar-item w3-button w3-hover-sand w3-hide-medium w3-hide-large">
+            <i class="fab fa-facebook-square w3-margin-right w3-hide-medium w3-hide-large"></i>facebook</a>
+          <a href="#" class="w3-bar-item w3-button w3-hover-sand w3-hide-large w3-hide-medium">
+            <i class="fab fa-instagram w3-margin-right w3-hide-large w3-hide-medium"></i>instagram</a>
+          <div class="w3-bar-item">
+            <span class="">
+              <i class="far fa-copyright" style="margin-right:5px;"></i>FisuKortti</span>
+          </div>
+        </div>
+      </div>
+      <!-- dropdown menu end -->
+
+      <a href="/index.html">
+        <span class="w3-bar-item w3-display-middle w3-fix-menu w3-text-blue">FisuKortti</span>
+      </a>
+      <a href="#" class="w3-bar-item w3-right w3-button w3-hover-blue w3-hide-small w3-text-blue">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="#" class="w3-bar-item w3-right w3-button w3-hover-blue w3-hide-small w3-text-blue">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="#" class="w3-bar-item w3-right w3-button w3-hover-blue w3-fix-menu w3-text-blue">
+        <i class="fas fa-user"></i>
+      </a>
+    </div>
+  </div>
+  <!-- navbar end -->
+
+  <!-- ############## navbar fixed for site user NOT LOGGEd in!!! -->
+
+  <!--  ######################### !PAGE CONTENT! ########################## -->
+
+  <!-- ################### search bar ################## -->
+  <div class="w3-container w3-margin">
+    <div class="3-row w3-content w3-resize-search">
+      <div class="w3-col w3-padding w3-resize-search-bar w3-row-padding" style="width:90%;">
+        <div class="w3-row-padding">
+          <div class="w3-half">
+            <input type="text" class="w3-input" placeholder="Missä?">
+          </div>
+          <div class="w3-half">
+            <input type="text" class="w3-input" placeholder="Mitä?">
+          </div>
+        </div>
+      </div>
+      <div class="w3-col w3-search-loop w3-resize-search-bar w3-hide-small w3-hide-medium" style="width:6%;">
+        <button class="w3-button w3-hover-white">
+          <span class="w3-text-blue w3-resize-search-icon">
+            <i class="fas fa-search w3-resize-search-icon" style="margin-right:5px;"></i> Hae</span>
+        </button>
+      </div>
+      <div class="w3-col w3-search-loop w3-resize-search-bar w3-hide-small w3-hide-laptop" style="width:6%;">
+        <button class="w3-button w3-hover-white">
+          <i class="fas fa-search w3-resize-search-icon w3-text-blue"></i>
+        </button>
+      </div>
+    </div>
+    <div class="w3-hide-medium w3-hide-laptop" style="text-align:center;margin-right:15%; margin-bottom:-5px;">
+      <button class="w3-button w3-hover-white">
+        <span class="w3-text-blue w3-resize-search-icon">
+          <i class="fas fa-search w3-resize-search-icon" style="margin-right:5px;"></i> Hae</span>
+      </button>
+    </div>
+  </div>
+  <!-- ################ search bar end ##########################-->
+
+  <!-- ###################################### kalapaikka show #####################################################-->
+  <div class="w3-main" style="margin-top:10px;margin-bottom:10px;">
+    <div class="w3-row-padding w3-margin-top w3-padding-top">
+
+      <!--kalapaikka pika-esittely ikkuna default / day permit järvi/lampi -->
+      <div class="w3-quarter w3-margin-bottom w3-tablet-view">
+        <a href="#" class="w3-grayscale-min">
+          <img src="/images/sebastian-sandqvist-418547-unsplash.jpg" alt="John" style="width:100%">
+        </a>
+        <div class="w3-container">
+          <h3>
+            <a href="#" style="text-decoration:none;">
+              <i class="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Harvaluoto, Kaarina</a>
+          </h3>
+          <p class="w3-opacity">
+            <i class="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, kuorre, lahna</p>
+          <p>
+            <!-- string length has to be limited to 94 chars -->
+            <i class="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div class="w3-panel w3-amber w3-padding" style="text-align:center">
+            <i class="far fa-id-card" style="margin-right:5px"></i>Luvanvarainen
+            <!-- <i class="fas fa-euro-sign"></i> -->
+          </div>
+        </div>
+      </div>
+      <!--kalapaikka pika-esittely ikkuna end -->
+
+      <!--kalapaikka pika-esittely ikkuna default public permit -->
+      <div class="w3-quarter w3-margin-bottom w3-tablet-view">
+        <a href="#" class="w3-grayscale-min">
+          <img src="/images/andrey-trusov-15106-unsplash.jpg" alt="John" style="width:100%">
+        </a>
+        <div class="w3-container">
+          <h3>
+            <a href="#" style="text-decoration:none;">
+              <i class="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Unelmajärvi, Espoo</a>
+          </h3>
+          <p class="w3-opacity">
+            <i class="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+          <p>
+            <i class="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div class="w3-panel w3-red w3-padding" style="text-align:center">
+            <i class="fas fa-exclamation-triangle" style="margin-right:5px"></i>Rauhoitettu
+            <!-- <i class="fas fa-euro-sign"></i> -->
+          </div>
+        </div>
+      </div>
+      <!--kalapaikka pika-esittely ikkuna end -->
+
+      <!--kalapaikka pika-esittely ikkuna river day permit -->
+      <div class="w3-quarter w3-margin-bottom w3-tablet-view">
+        <a href="#" class="w3-grayscale-min">
+          <img src="/images/ravi-pinisetti-69440-unsplash.jpg" alt="John" style="width:100%">
+        </a>
+        <div class="w3-container">
+          <h3>
+            <a href="#" style="text-decoration:none;">
+              <i class="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Ahvenkoski, Loviisa</a>
+          </h3>
+          <p class="w3-opacity">
+            <i class="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+          <p>
+            <i class="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div class="w3-panel w3-blue w3-padding" style="text-align:center">
+            <i class="far fa-id-card" style="margin-right:5px"></i>Kalastuksenhoitomaksu
+            <!-- <i class="fas fa-euro-sign"></i> -->
+          </div>
+        </div>
+      </div>
+      <!--kalapaikka pika-esittely ikkuna end -->
+
+      <!--kalapaikka pika-esittely river day permit -->
+      <div class="w3-quarter w3-margin-bottom w3-tablet-view">
+        <a href="#" class="w3-grayscale-min">
+          <img src="/images/arto-marttinen-117445-unsplash.jpg" alt="John" style="width:100%">
+        </a>
+        <div class="w3-container">
+          <h3>
+            <a href="#" style="text-decoration:none;">
+              <i class="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Berglund, Inkoo</a>
+          </h3>
+          <p class="w3-opacity">
+            <i class="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+          <p>
+            <i class="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div class="w3-panel w3-amber w3-padding" style="text-align:center">
+            <i class="far fa-id-card" style="margin-right:5px"></i>Luvanvarainen
+            <!-- <i class="fas fa-euro-sign"></i> -->
+          </div>
+        </div>
+      </div>
+      <!--kalapaikka pika-esittely ikkuna end -->
+      <!--kalapaikka pika-esittely ikkuna default / day permit järvi/lampi -->
+      <div class="w3-quarter w3-margin-bottom w3-tablet-view">
+        <a href="#" class="w3-grayscale-min">
+          <img src="/images/sebastian-sandqvist-418547-unsplash.jpg" alt="John" style="width:100%">
+        </a>
+        <div class="w3-container">
+          <h3>
+            <a href="#" style="text-decoration:none;">
+              <i class="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Harvaluoto, Kaarina</a>
+          </h3>
+          <p class="w3-opacity">
+            <i class="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven</p>
+          <p>
+            <!-- string length has to be limited to 94 chars -->
+            <i class="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div class="w3-panel w3-amber w3-padding" style="text-align:center">
+            <i class="far fa-id-card" style="margin-right:5px"></i>Luvanvarainen
+            <!-- <i class="fas fa-euro-sign"></i> -->
+          </div>
+        </div>
+      </div>
+      <!--kalapaikka pika-esittely ikkuna end -->
+
+      <!--kalapaikka pika-esittely ikkuna default public permit -->
+      <div class="w3-quarter w3-margin-bottom w3-tablet-view">
+        <a href="#" class="w3-grayscale-min">
+          <img src="/images/andrey-trusov-15106-unsplash.jpg" alt="John" style="width:100%">
+        </a>
+        <div class="w3-container">
+          <h3>
+            <a href="#" style="text-decoration:none;">
+              <i class="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Unelmajärvi, Espoo</a>
+          </h3>
+          <p class="w3-opacity">
+            <i class="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+          <p>
+            <i class="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div class="w3-panel w3-red w3-padding" style="text-align:center">
+            <i class="fas fa-exclamation-triangle" style="margin-right:5px"></i>Rauhoitettu
+            <!-- <i class="fas fa-euro-sign"></i> -->
+          </div>
+        </div>
+      </div>
+      <!--kalapaikka pika-esittely ikkuna end -->
+
+      <!--kalapaikka pika-esittely ikkuna river day permit -->
+      <div class="w3-quarter w3-margin-bottom w3-tablet-view">
+        <a href="#" class="w3-grayscale-min">
+          <img src="/images/ravi-pinisetti-69440-unsplash.jpg" alt="John" style="width:100%">
+        </a>
+        <div class="w3-container">
+          <h3>
+            <a href="#" style="text-decoration:none;">
+              <i class="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Ahvenkoski, Loviisa</a>
+          </h3>
+          <p class="w3-opacity">
+            <i class="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+          <p>
+            <i class="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div class="w3-panel w3-blue w3-padding" style="text-align:center">
+            <i class="far fa-id-card" style="margin-right:5px"></i>Kalastuksenhoitomaksu
+            <!-- <i class="fas fa-euro-sign"></i> -->
+          </div>
+        </div>
+      </div>
+      <!--kalapaikka pika-esittely ikkuna end -->
+
+      <!--kalapaikka pika-esittely river day permit -->
+      <div class="w3-quarter w3-margin-bottom w3-tablet-view">
+        <a href="#" class="w3-grayscale-min">
+          <img src="/images/arto-marttinen-117445-unsplash.jpg" alt="John" style="width:100%">
+        </a>
+        <div class="w3-container">
+          <h3>
+            <a href="#" style="text-decoration:none;">
+              <i class="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Berglund, Inkoo</a>
+          </h3>
+          <p class="w3-opacity">
+            <i class="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+          <p>
+            <i class="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div class="w3-panel w3-amber w3-padding" style="text-align:center">
+            <i class="far fa-id-card" style="margin-right:5px"></i>Luvanvarainen
+            <!-- <i class="fas fa-euro-sign"></i> -->
+          </div>
+        </div>
+      </div>
+      <!--kalapaikka pika-esittely ikkuna end -->
+      <!--kalapaikka pika-esittely ikkuna default / day permit järvi/lampi -->
+      <div class="w3-quarter w3-margin-bottom w3-tablet-view">
+        <a href="#" class="w3-grayscale-min">
+          <img src="/images/sebastian-sandqvist-418547-unsplash.jpg" alt="John" style="width:100%">
+        </a>
+        <div class="w3-container">
+          <h3>
+            <a href="#" style="text-decoration:none;">
+              <i class="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Harvaluoto, Kaarina</a>
+          </h3>
+          <p class="w3-opacity">
+            <i class="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven</p>
+          <p>
+            <!-- string length has to be limited to 94 chars -->
+            <i class="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div class="w3-panel w3-amber w3-padding" style="text-align:center">
+            <i class="far fa-id-card" style="margin-right:5px"></i>Luvanvarainen
+            <!-- <i class="fas fa-euro-sign"></i> -->
+          </div>
+        </div>
+      </div>
+      <!--kalapaikka pika-esittely ikkuna end -->
+
+      <!--kalapaikka pika-esittely ikkuna default public permit -->
+      <div class="w3-quarter w3-margin-bottom w3-tablet-view">
+        <a href="#" class="w3-grayscale-min">
+          <img src="/images/andrey-trusov-15106-unsplash.jpg" alt="John" style="width:100%">
+        </a>
+        <div class="w3-container">
+          <h3>
+            <a href="#" style="text-decoration:none;">
+              <i class="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Unelmajärvi, Espoo</a>
+          </h3>
+          <p class="w3-opacity">
+            <i class="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+          <p>
+            <i class="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div class="w3-panel w3-red w3-padding" style="text-align:center">
+            <i class="fas fa-exclamation-triangle" style="margin-right:5px"></i>Rauhoitettu
+            <!-- <i class="fas fa-euro-sign"></i> -->
+          </div>
+        </div>
+      </div>
+      <!--kalapaikka pika-esittely ikkuna end -->
+
+      <!--kalapaikka pika-esittely ikkuna river day permit -->
+      <div class="w3-quarter w3-margin-bottom w3-tablet-view">
+        <a href="#" class="w3-grayscale-min">
+          <img src="/images/ravi-pinisetti-69440-unsplash.jpg" alt="John" style="width:100%">
+        </a>
+        <div class="w3-container">
+          <h3>
+            <a href="#" style="text-decoration:none;">
+              <i class="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Ahvenkoski, Loviisa</a>
+          </h3>
+          <p class="w3-opacity">
+            <i class="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+          <p>
+            <i class="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div class="w3-panel w3-blue w3-padding" style="text-align:center">
+            <i class="far fa-id-card" style="margin-right:5px"></i>Kalastuksenhoitomaksu
+            <!-- <i class="fas fa-euro-sign"></i> -->
+          </div>
+        </div>
+      </div>
+      <!--kalapaikka pika-esittely ikkuna end -->
+
+      <!--kalapaikka pika-esittely river day permit -->
+      <div class="w3-quarter w3-margin-bottom w3-tablet-view">
+        <a href="#" class="w3-grayscale-min">
+          <img src="/images/arto-marttinen-117445-unsplash.jpg" alt="John" style="width:100%">
+        </a>
+        <div class="w3-container">
+          <h3>
+            <a href="#" style="text-decoration:none;">
+              <i class="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Berglund, Inkoo</a>
+          </h3>
+          <p class="w3-opacity">
+            <i class="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+          <p>
+            <i class="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div class="w3-panel w3-amber w3-padding" style="text-align:center">
+            <i class="far fa-id-card" style="margin-right:5px"></i>Luvanvarainen
+            <!-- <i class="fas fa-euro-sign"></i> -->
+          </div>
+        </div>
+      </div>
+      <!--kalapaikka pika-esittely ikkuna end -->
+    </div>
+  </div>
+  <!-- End page content -->
+
+  <!-- fixed footer -->
+  <!-- fixed footer end -->
+
+</body>
+
+</html>

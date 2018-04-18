@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<script defer src="fontawesome-all.js"></script>
+
+<body>
+
+  <!-- ############## navbar fixed for site user NOT LOGGED in!!! -->
+  <!-- navbar -->
+  <div class="w3-display-container">
+    <div class="w3-bar w3-xlarge w3-white w3-padding w3-fix-menu">
+      <!-- dropdown menu -->
+      <div class="w3-dropdown-hover w3-fix-menu">
+        <button class="w3-button w3-white w3-text-blue w3-hover-blue w3-button-white">
+          <i class="fas fa-align-justify"></i>
+        </button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-blue w3-xlarge w3-fix-menu">
+          <a href="/blogi.html" class="w3-bar-item w3-button w3-hover-sand">
+            <i class="far fa-newspaper w3-margin-right"></i>Blogi</a>
+          <a href="/mitaihmetta.html" class="w3-bar-item w3-button w3-hover-sand">
+            <i class="fas fa-question-circle w3-margin-right"></i>Mikä on FisuKortti</a>
+          <a href="/kontakti.html" class="w3-bar-item w3-button w3-hover-sand">
+            <i class="fas fa-envelope-open w3-margin-right"></i>Yhteystiedot</a>
+          <a href="/tos.html" class="w3-bar-item w3-button w3-hover-sand">
+            <i class="fas fa-unlock-alt w3-margin-right"></i>Käyttöehdot</a>
+          <a href="#" class="w3-bar-item w3-button w3-hover-sand w3-hide-medium w3-hide-large">
+            <i class="fab fa-facebook-square w3-margin-right w3-hide-medium w3-hide-large"></i>facebook</a>
+          <a href="#" class="w3-bar-item w3-button w3-hover-sand w3-hide-large w3-hide-medium">
+            <i class="fab fa-instagram w3-margin-right w3-hide-large w3-hide-medium"></i>instagram</a>
+          <div class="w3-bar-item">
+            <span class="">
+              <i class="far fa-copyright" style="margin-right:5px;"></i>fisukortti</span>
+          </div>
+        </div>
+      </div>
+      <!-- dropdown menu end -->
+
+      <a href="/index.html">
+        <span class="w3-bar-item w3-display-middle w3-fix-menu w3-text-blue">FisuKortti</span>
+      </a>
+      <a href="#" class="w3-bar-item w3-right w3-button w3-hover-blue w3-hide-small w3-text-blue">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="#" class="w3-bar-item w3-right w3-button w3-hover-blue w3-hide-small w3-text-blue">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="#" class="w3-bar-item w3-right w3-button w3-hover-blue w3-fix-menu w3-text-blue">
+        <i class="fas fa-user"></i>
+      </a>
+    </div>
+  </div>
+  <!-- navbar end -->
+
+  <!-- ############## navbar fixed for site user NOT LOGGED in!!! -->
+
+  <!--  ######################### !PAGE CONTENT! ########################## -->
+
+  <div class="w3-container">
+    <h1 class="w3-jumbo w3-padding w3-margin">
+      <b>Ota meihin yhteyttä!</b>
+    </h1>
+
+    <p class="w3-text-red">Kalapaikka tiedot on tuotettu teknisesti ihmisestä riippumatta käyttäen pelkistettyä kalatietämystä ja ympäristötietoja. Jos oma kalapaikkasi paloi palvelussa niin pahoittelut mutta sitä ei voi poistaa koska algoritmi generoisi sen vain uudelleen. Sähköposti liikenteen hallinnasta vastaava algoritmi suodattaa roskapostiksi kaikki kalapaikan poisto pyynnöt, niin lopeta ruikuttaminen ja mene kalaan <i class="far fa-smile"></i></p>
+
+    <!-- ########## teksti artikkeli ########### -->
+    <div class="w3-padding w3-margin">
+      <h1 class="w3-text-blue">
+        <b>Kysyttävää? Lisättävää? Laita viestiä alla olevalla lomakkeella!</b>
+      </h1>
+      <hr style="width:50px;border:5px solid blue" class="w3-round">
+
+      <div class="">
+        <form action="#" class="w3-container w3-card-4 w3-text-blue w3-margin" style="box-shadow: none">
+
+          <div class="w3-row w3-section">
+            <div class="w3-col" style="width:50px">
+              <i class="w3-xxlarge far fa-user"></i>
+            </div>
+            <div class="w3-rest">
+              <input class="w3-input" type="text" placeholder="Etunimi">
+            </div>
+          </div>
+
+          <div class="w3-row w3-section">
+            <div class="w3-col" style="width:50px">
+              <i class="w3-xxlarge far fa-user"></i>
+            </div>
+            <div class="w3-rest">
+              <input class="w3-input" type="text" placeholder="Sukunimi">
+            </div>
+          </div>
+
+          <div class="w3-row w3-section">
+            <div class="w3-col" style="width:50px">
+              <i class="w3-xxlarge far fa-envelope"></i>
+            </div>
+            <div class="w3-rest">
+              <input class="w3-input" name="email" type="text" placeholder="Sähköposti">
+            </div>
+          </div>
+
+          <div class="w3-row w3-section">
+            <div class="w3-col" style="width:50px">
+              <i class="w3-xxlarge far fa-edit"></i>
+            </div>
+            <div class="w3-rest">
+              <input class="w3-input" name="message" type="text" placeholder="Viestisi">
+            </div>
+          </div>
+
+          <button class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding">Lähetä</button>
+
+        </form>
+      </div>
+    </div>
+    <!-- ########## teksti artikkeli ########### -->
+
+  </div>
+  <!-- End page content -->
+
+  <!-- fixed footer -->
+  <!-- fixed footer end -->
+
+</body>
+
+</html>
