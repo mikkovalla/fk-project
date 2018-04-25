@@ -79,235 +79,235 @@ class App extends Component {
     </div>
   
 
-  <div className="w3-main" style="margin-top:10px;margin-bottom:10px;">
+  <div className="w3-main" style={{marginTop:'10px', marginBottom:'10px'}}>
     <div className="w3-row-padding w3-margin-top w3-padding-top">
       <div className="w3-quarter w3-margin-bottom w3-tablet-view">
         <a href="/html/fk/place.html" className="w3-grayscale-min">
-          <img src="/html/images/sebastian-sandqvist-418547-unsplash.jpg" alt="John" style="width:100%"/>
+          <img src="/html/images/sebastian-sandqvist-418547-unsplash.jpg" alt="John" style={{width:'100%'}}/>
         </a>
         <div className="w3-container">
           <h3>
-            <a href="#" style="text-decoration:none;">
+            <a href="/html/fk/place.html" style={{textDecoration: 'none'}}>
               <i className="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Harvaluoto, Kaarina</a>
           </h3>
           <p className="w3-opacity">
-            <i className="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, kuorre, lahna</p>
+            <i className="fas fa-hand-peace w3-text-blue" style={{marginRight:'5px'}}></i> Hauki, kuha, ahven, kuorre, lahna</p>
           <p>
-            <i className="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
-          <div className="w3-panel w3-amber w3-padding" style="text-align:center">
-            <i className="far fa-id-card" style="margin-right:5px"></i>Luvanvarainen
+            <i className="fas fa-exclamation w3-tet-blue" style={{}}></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div className="w3-panel w3-amber w3-padding" style={{textAlign:'center'}}>
+            <i className="far fa-d-card" style={{}}></i>Luvanvarainen
 
           </div>
         </div>
       </div>
       <div className="w3-quarter w3-margin-bottom w3-tablet-view">
-        <a href="#" className="w3-grayscale-min">
-          <img src="/html/images/andrey-trusov-15106-unsplash.jpg" alt="John" style="width:100%"/>
+        <a href="/html/fk/place.html" className="w3-grayscale-min">
+          <img src="/html/images/andrey-trusov-15106-unsplash.jpg" alt="John" style={{width:'100%'}}/>
         </a>
         <div className="w3-container">
           <h3>
-            <a href="#" style="text-decoration:none;">
+            <a href="/html/fk/place.html" style={{textDecoration: 'none'}}>
               <i className="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Unelmajärvi, Espoo</a>
           </h3>
           <p className="w3-opacity">
-            <i className="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+            <i className="fas fa-hand-peace w3-tet-blue" style={{}}></i> Hauki, kuha, ahven, taimen, karppi</p>
           <p>
-            <i className="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
-          <div className="w3-panel w3-red w3-padding" style="text-align:center">
-            <i className="fas fa-exclamation-triangle" style="margin-right:5px"></i>Rauhoitettu
+            <i className="fas fa-exclamation w3-tet-blue" style={{}}></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div className="w3-panel w3-red w3-padding" style={{textAlign:'center'}}>
+            <i className="fas fa-exclamation-tiangle" style={{}}></i>Rauhoitettu
 
           </div>
         </div>
       </div>
       <div className="w3-quarter w3-margin-bottom w3-tablet-view">
-        <a href="#" className="w3-grayscale-min">
-          <img src="/html/images/ravi-pinisetti-69440-unsplash.jpg" alt="John" style="width:100%"/>
+        <a href="/html/fk/place.html" className="w3-grayscale-min">
+          <img src="/html/images/ravi-pinisetti-69440-unsplash.jpg" alt="John" style={{width:'100%'}}/>
         </a>
         <div className="w3-container">
           <h3>
-            <a href="#" style="text-decoration:none;">
+            <a href="/html/fk/place.html" style={{textDecoration: 'none'}}>
               <i className="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Ahvenkoski, Loviisa</a>
           </h3>
           <p className="w3-opacity">
-            <i className="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+            <i className="fas fa-hand-peace w3-tet-blue" style={{}}></i> Hauki, kuha, ahven, taimen, karppi</p>
           <p>
-            <i className="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
-          <div className="w3-panel w3-blue w3-padding" style="text-align:center">
-            <i className="far fa-id-card" style="margin-right:5px"></i>Kalastuksenhoitomaksu
+            <i className="fas fa-exclamation w3-tet-blue" style={{}}></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div className="w3-panel w3-blue w3-padding" style={{textAlign:'center'}}>
+            <i className="far fa-d-card" style={{}}></i>Kalastuksenhoitomaksu
 
           </div>
         </div>
       </div>
       <div className="w3-quarter w3-margin-bottom w3-tablet-view">
-        <a href="#" className="w3-grayscale-min">
-          <img src="/html/images/arto-marttinen-117445-unsplash.jpg" alt="John" style="width:100%"/>
+        <a href="/html/fk/place.html" className="w3-grayscale-min">
+          <img src="/html/images/arto-marttinen-117445-unsplash.jpg" alt="John" style={{width:'100%'}}/>
         </a>
         <div className="w3-container">
           <h3>
-            <a href="#" style="text-decoration:none;">
+            <a href="/html/fk/place.html" style={{textDecoration: 'none'}}>
               <i className="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Berglund, Inkoo</a>
           </h3>
           <p className="w3-opacity">
-            <i className="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+            <i className="fas fa-hand-peace w3-tet-blue" style={{}}></i> Hauki, kuha, ahven, taimen, karppi</p>
           <p>
-            <i className="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
-          <div className="w3-panel w3-amber w3-padding" style="text-align:center">
-            <i className="far fa-id-card" style="margin-right:5px"></i>Luvanvarainen
+            <i className="fas fa-exclamation w3-tet-blue" style={{}}></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div className="w3-panel w3-amber w3-padding" style={{textAlign:'center'}}>
+            <i className="far fa-d-card" style={{}}></i>Luvanvarainen
 
           </div>
         </div>
       </div>
       <div className="w3-quarter w3-margin-bottom w3-tablet-view">
-        <a href="#" className="w3-grayscale-min">
-          <img src="/html/images/sebastian-sandqvist-418547-unsplash.jpg" alt="John" style="width:100%"/>
+        <a href="/html/fk/place.html" className="w3-grayscale-min">
+          <img src="/html/images/sebastian-sandqvist-418547-unsplash.jpg" alt="John" style={{width:'100%'}}/>
         </a>
         <div className="w3-container">
           <h3>
-            <a href="#" style="text-decoration:none;">
+            <a href="/html/fk/place.html" style={{textDecoration: 'none'}}>
               <i className="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Harvaluoto, Kaarina</a>
           </h3>
           <p className="w3-opacity">
-            <i className="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven</p>
+            <i className="fas fa-hand-peace w3-tet-blue" style={{}}></i> Hauki, kuha, ahven</p>
           <p>
-            <i className="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
-          <div className="w3-panel w3-amber w3-padding" style="text-align:center">
-            <i className="far fa-id-card" style="margin-right:5px"></i>Luvanvarainen
+            <i className="fas fa-exclamation w3-tet-blue" style={{}}></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div className="w3-panel w3-amber w3-padding" style={{textAlign:'center'}}>
+            <i className="far fa-d-card" style={{}}></i>Luvanvarainen
 
           </div>
         </div>
       </div>
       <div className="w3-quarter w3-margin-bottom w3-tablet-view">
-        <a href="#" className="w3-grayscale-min">
-          <img src="/html/images/andrey-trusov-15106-unsplash.jpg" alt="John" style="width:100%"/>
+        <a href="/html/fk/place.html" className="w3-grayscale-min">
+          <img src="/html/images/andrey-trusov-15106-unsplash.jpg" alt="John" style={{width:'100%'}}/>
         </a>
         <div className="w3-container">
           <h3>
-            <a href="#" style="text-decoration:none;">
+            <a href="/html/fk/place.html" style={{textDecoration: 'none'}}>
               <i className="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Unelmajärvi, Espoo</a>
           </h3>
           <p className="w3-opacity">
-            <i className="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+            <i className="fas fa-hand-peace w3-tet-blue" style={{}}></i> Hauki, kuha, ahven, taimen, karppi</p>
           <p>
-            <i className="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
-          <div className="w3-panel w3-red w3-padding" style="text-align:center">
-            <i className="fas fa-exclamation-triangle" style="margin-right:5px"></i>Rauhoitettu
+            <i className="fas fa-exclamation w3-tet-blue" style={{}}></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div className="w3-panel w3-red w3-padding" style={{textAlign:'center'}}>
+            <i className="fas fa-exclamation-tiangle" style={{}}></i>Rauhoitettu
 
           </div>
         </div>
       </div>
       <div className="w3-quarter w3-margin-bottom w3-tablet-view">
-        <a href="#" className="w3-grayscale-min">
-          <img src="/html/images/ravi-pinisetti-69440-unsplash.jpg" alt="John" style="width:100%"/>
+        <a href="/html/fk/place.html" className="w3-grayscale-min">
+          <img src="/html/images/ravi-pinisetti-69440-unsplash.jpg" alt="John" style={{width:'100%'}}/>
         </a>
         <div className="w3-container">
           <h3>
-            <a href="#" style="text-decoration:none;">
+            <a href="/html/fk/place.html" style={{textDecoration: 'none'}}>
               <i className="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Ahvenkoski, Loviisa</a>
           </h3>
           <p className="w3-opacity">
-            <i className="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+            <i className="fas fa-hand-peace w3-tet-blue" style={{}}></i> Hauki, kuha, ahven, taimen, karppi</p>
           <p>
-            <i className="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
-          <div className="w3-panel w3-blue w3-padding" style="text-align:center">
-            <i className="far fa-id-card" style="margin-right:5px"></i>Kalastuksenhoitomaksu
+            <i className="fas fa-exclamation w3-tet-blue" style={{}}></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div className="w3-panel w3-blue w3-padding" style={{textAlign:'center'}}>
+            <i className="far fa-d-card" style={{}}></i>Kalastuksenhoitomaksu
 
           </div>
         </div>
       </div>
       <div className="w3-quarter w3-margin-bottom w3-tablet-view">
-        <a href="#" className="w3-grayscale-min">
-          <img src="/html/images/arto-marttinen-117445-unsplash.jpg" alt="John" style="width:100%"/>
+        <a href="/html/fk/place.html" className="w3-grayscale-min">
+          <img src="/html/images/arto-marttinen-117445-unsplash.jpg" alt="John" style={{width:'100%'}}/>
         </a>
         <div className="w3-container">
           <h3>
-            <a href="#" style="text-decoration:none;">
+            <a href="/html/fk/place.html" style={{textDecoration: 'none'}}>
               <i className="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Berglund, Inkoo</a>
           </h3>
           <p className="w3-opacity">
-            <i className="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+            <i className="fas fa-hand-peace w3-tet-blue" style={{}}></i> Hauki, kuha, ahven, taimen, karppi</p>
           <p>
-            <i className="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
-          <div className="w3-panel w3-amber w3-padding" style="text-align:center">
-            <i className="far fa-id-card" style="margin-right:5px"></i>Luvanvarainen
+            <i className="fas fa-exclamation w3-tet-blue" style={{}}></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div className="w3-panel w3-amber w3-padding" style={{textAlign:'center'}}>
+            <i className="far fa-d-card" style={{}}></i>Luvanvarainen
 
           </div>
         </div>
       </div>
       <div className="w3-quarter w3-margin-bottom w3-tablet-view">
-        <a href="#" className="w3-grayscale-min">
-          <img src="/html/images/sebastian-sandqvist-418547-unsplash.jpg" alt="John" style="width:100%"/>
+        <a href="/html/fk/place.html" className="w3-grayscale-min">
+          <img src="/html/images/sebastian-sandqvist-418547-unsplash.jpg" alt="John" style={{width:'100%'}}/>
         </a>
         <div className="w3-container">
           <h3>
-            <a href="#" style="text-decoration:none;">
+            <a href="/html/fk/place.html" style={{textDecoration: 'none'}}>
               <i className="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Harvaluoto, Kaarina</a>
           </h3>
           <p className="w3-opacity">
-            <i className="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven</p>
+            <i className="fas fa-hand-peace w3-tet-blue" style={{}}></i> Hauki, kuha, ahven</p>
           <p>
-            <i className="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
-          <div className="w3-panel w3-amber w3-padding" style="text-align:center">
-            <i className="far fa-id-card" style="margin-right:5px"></i>Luvanvarainen
+            <i className="fas fa-exclamation w3-tet-blue" style={{}}></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div className="w3-panel w3-amber w3-padding" style={{textAlign:'center'}}>
+            <i className="far fa-d-card" style={{}}></i>Luvanvarainen
 
           </div>
         </div>
       </div>
 
       <div className="w3-quarter w3-margin-bottom w3-tablet-view">
-        <a href="#" className="w3-grayscale-min">
-          <img src="/html/images/andrey-trusov-15106-unsplash.jpg" alt="John" style="width:100%"/>
+        <a href="/html/fk/place.html" className="w3-grayscale-min">
+          <img src="/html/images/andrey-trusov-15106-unsplash.jpg" alt="John" style={{width:'100%'}}/>
         </a>
         <div className="w3-container">
           <h3>
-            <a href="#" style="text-decoration:none;">
+            <a href="/html/fk/place.html" style={{textDecoration: 'none'}}>
               <i className="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Unelmajärvi, Espoo</a>
           </h3>
           <p className="w3-opacity">
-            <i className="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+            <i className="fas fa-hand-peace w3-tet-blue" style={{}}></i> Hauki, kuha, ahven, taimen, karppi</p>
           <p>
-            <i className="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
-          <div className="w3-panel w3-red w3-padding" style="text-align:center">
-            <i className="fas fa-exclamation-triangle" style="margin-right:5px"></i>Rauhoitettu
+            <i className="fas fa-exclamation w3-tet-blue" style={{}}></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div className="w3-panel w3-red w3-padding" style={{textAlign:'center'}}>
+            <i className="fas fa-exclamation-tiangle" style={{}}></i>Rauhoitettu
 
           </div>
         </div>
       </div>
 
       <div className="w3-quarter w3-margin-bottom w3-tablet-view">
-        <a href="#" className="w3-grayscale-min">
-          <img src="/html/images/ravi-pinisetti-69440-unsplash.jpg" alt="John" style="width:100%"/>
+        <a href="/html/fk/place.html" className="w3-grayscale-min">
+          <img src="/html/images/ravi-pinisetti-69440-unsplash.jpg" alt="John" style={{width:'100%'}}/>
         </a>
         <div className="w3-container">
           <h3>
-            <a href="#" style="text-decoration:none;">
+            <a href="/html/fk/place.html" style={{textDecoration: 'none'}}>
               <i className="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Ahvenkoski, Loviisa</a>
           </h3>
           <p className="w3-opacity">
-            <i className="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+            <i className="fas fa-hand-peace w3-tet-blue" style={{}}></i> Hauki, kuha, ahven, taimen, karppi</p>
           <p>
-            <i className="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
-          <div className="w3-panel w3-blue w3-padding" style="text-align:center">
-            <i className="far fa-id-card" style="margin-right:5px"></i>Kalastuksenhoitomaksu
+            <i className="fas fa-exclamation w3-tet-blue" style={{}}></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div className="w3-panel w3-blue w3-padding" style={{textAlign:'center'}}>
+            <i className="far fa-d-card" style={{}}></i>Kalastuksenhoitomaksu
 
           </div>
         </div>
       </div>
 
       <div className="w3-quarter w3-margin-bottom w3-tablet-view">
-        <a href="#" className="w3-grayscale-min">
-          <img src="/html/images/arto-marttinen-117445-unsplash.jpg" alt="John" style="width:100%"/>
+        <a href="/html/fk/place.html" className="w3-grayscale-min">
+          <img src="/html/images/arto-marttinen-117445-unsplash.jpg" alt="John" style={{width:'100%'}}/>
         </a>
         <div className="w3-container">
           <h3>
-            <a href="#" style="text-decoration:none;">
+            <a href="/html/fk/place.html" style={{textDecoration: 'none'}}>
               <i className="fas fa-location-arrow w3-margin-right w3-text-blue"></i>Berglund, Inkoo</a>
           </h3>
           <p className="w3-opacity">
-            <i className="fas fa-hand-peace w3-text-blue" style="margin-right:5px"></i> Hauki, kuha, ahven, taimen, karppi</p>
+            <i className="fas fa-hand-peace w3-tet-blue" style={{}}></i> Hauki, kuha, ahven, taimen, karppi</p>
           <p>
-            <i className="fas fa-exclamation w3-text-blue" style="margin-right:5px"></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
-          <div className="w3-panel w3-amber w3-padding" style="text-align:center">
-            <i className="far fa-id-card" style="margin-right:5px"></i>Luvanvarainen
+            <i className="fas fa-exclamation w3-tet-blue" style={{}}></i> Aivan jäätäviä mörköjä koko järvi täynnä. Renkailu kielletty koska hauet syöneet varomattomia...</p>
+          <div className="w3-panel w3-amber w3-padding" style={{textAlign:'center'}}>
+            <i className="far fa-d-card" style={{}}></i>Luvanvarainen
 
           </div>
         </div>
